@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Grass: Contacto</title>
+</head>
+<body>
+    <div class="texto-grande2">
+        Nuestra Ubicación
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33841.92044613988!2d-2.0865016881051304!3d37.36441862571488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ce53c57621ec813!2zMzfCsDIxJzM4LjUiTiAywrAwNicxOS42Ilc!5e1!3m2!1ses!2ses!4v1640527158636!5m2!1ses!2ses" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div id="email">
+        <p class="texto-grande2">Nuestro email: info@desertgrass.es</p>
+        <p class="texto-grande2">Teléfono de Contacto: +34 950 430 250 - Móvil: +34 621 28 71 31</p>
+    </div>
+
+    <div id="Contacto">
+        <form name="Formulario-de-contacto" action="./PRUEBA.html" method="POST">
+            <fieldset>
+                <legend class="texto-grande2">Formulario de Contacto</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre, Entidad o Empresa" minlength="3" required autofocus>
+
+                <br>    
+
+                <label for="email">Email:</label>   
+                <input type="email" name="email" id="email" minlength="5" required>
+
+                <br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono">
+
+                <br>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" name="asunto" id="asunto" minlength="4" required>
+
+                <br>
+
+                <label for="mensage">Mensage:</label>
+                <textarea name="mensage" id="mensage" cols="30" rows="10" minlength="10" placeholder="Su mensage debe contener al menos 10 caracteres." required></textarea>
+
+                <br>
+                <label for="Archivo">Si lo deseas puedes adjuntar una foto o documento con tu mensage: </label>
+                <input type="file" name="Archivo" id="Archivo" multiple>
+                <br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+    
+</body>
+</html>

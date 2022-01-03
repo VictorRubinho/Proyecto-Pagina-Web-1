@@ -1,0 +1,23 @@
+a:hover {
+    font-weight: bold;
+}
+
+.menu ul li{
+    color: black;
+}
+
+.texto-grande {
+    font-size: 40px;
+}
+
+.texto-grande2 {
+    font-size: 25px;
+}
+
+#empresa {
+    font-size: 20px;
+}
+
+.foto-nuestro-trabajo {
+    font-size: 17px;
+}
