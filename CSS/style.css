@@ -4,20 +4,41 @@ a:hover {
 
 .menu ul li{
     color: black;
+    text-align: center;
 }
 
 .texto-grande {
     font-size: 40px;
+    text-align: center;
 }
 
 .texto-grande2 {
     font-size: 25px;
+    text-align: center;
 }
 
 #empresa {
     font-size: 20px;
+    text-align: center;
 }
 
 .foto-nuestro-trabajo {
     font-size: 17px;
+}
+
+.texto-footer {
+    font-size: 13px;
+    text-align: center;
+}
+
+.texto-footer2 {
+    font-size: 15px;
+}
+
+aside {
+    text-align: justify;
+}
+
+.articulo1 {
+    text-align: center;
 }
