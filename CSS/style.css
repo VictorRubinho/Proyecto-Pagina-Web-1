@@ -36,9 +36,21 @@ a:hover {
 }
 
 aside {
-    text-align: justify;
+    text-align: center;
 }
 
 .articulo1 {
     text-align: center;
+}
+
+.logo {
+    width: 250px;
+}
+
+.icono-menu {
+    width: 35px;
+}
+
+.icono-redes {
+    width: 40px;
 }
