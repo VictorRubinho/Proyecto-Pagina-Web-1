@@ -24,15 +24,28 @@ a:hover {
 
 .foto-nuestro-trabajo {
     font-size: 17px;
+    width: 350px;
+}
+
+.foto-trabajo {
+    width: 350px;
+    height: 250px;
+}
+
+footer {
+    background-color:#181818;
 }
 
 .texto-footer {
     font-size: 13px;
     text-align: center;
+    color: rgb(155, 155, 155);
 }
 
 .texto-footer2 {
     font-size: 15px;
+    text-align: center;
+    color: rgb(155, 155, 155);
 }
 
 aside {
@@ -44,6 +57,7 @@ aside {
 }
 
 .logo {
+    text-align: center;
     width: 250px;
 }
 
@@ -54,3 +68,8 @@ aside {
 .icono-redes {
     width: 40px;
 }
+
+li {
+    list-style-type: none;
+}
+
