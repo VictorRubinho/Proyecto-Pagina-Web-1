@@ -1,10 +1,17 @@
+a:visited {
+    text-decoration: none;
+    
+}
+
 a:hover {
     font-weight: bold;
+    
 }
 
 .menu ul li{
     color: black;
     text-align: center;
+    padding: 00.4%;
 }
 
 .texto-grande {
@@ -17,14 +24,18 @@ a:hover {
     text-align: center;
 }
 
-#empresa {
-    font-size: 20px;
+.texto-grande3 {
+    font-size: 25px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .foto-nuestro-trabajo {
     font-size: 17px;
     width: 350px;
+    border: 3px solid #181818;
+    text-align: center;
+    
 }
 
 .foto-trabajo {
@@ -46,6 +57,7 @@ footer {
     font-size: 15px;
     text-align: center;
     color: rgb(155, 155, 155);
+    padding: 0.3%;
 }
 
 aside {
@@ -57,7 +69,6 @@ aside {
 }
 
 .logo {
-    text-align: center;
     width: 250px;
 }
 
@@ -67,9 +78,20 @@ aside {
 
 .icono-redes {
     width: 40px;
+    padding: 0.3%;
 }
 
 li {
     list-style-type: none;
+}
+
+#empresa {
+    font-size: 20px;
+    text-align: center;
+    padding: 80px 280px;
+}
+
+#contacto {
+    border: 2px solid black;
 }
 
