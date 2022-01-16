@@ -10,8 +10,16 @@ a:hover {
 
 .menu ul li{
     color: black;
+    width: 20%;
     text-align: center;
     padding: 00.4%;
+    margin: 0.9% auto;
+    
+}
+
+.icono-menu {
+    width: 15%;
+    margin: 0.5%;
 }
 
 .texto-grande {
@@ -28,6 +36,8 @@ a:hover {
     font-size: 25px;
     text-align: center;
     border: 2px solid black;
+    margin: 3% ;
+    width: 45%;
 }
 
 .foto-nuestro-trabajo {
@@ -35,6 +45,7 @@ a:hover {
     width: 350px;
     border: 3px solid #181818;
     text-align: center;
+    margin: 5%;
     
 }
 
@@ -65,15 +76,14 @@ aside {
 }
 
 .articulo1 {
+    font-size: 20px;
     text-align: center;
+    padding: 80px 280px;
+    margin: 0.3%;
 }
 
 .logo {
     width: 250px;
-}
-
-.icono-menu {
-    width: 35px;
 }
 
 .icono-redes {
@@ -85,13 +95,21 @@ li {
     list-style-type: none;
 }
 
+.presentacion-trabajo {
+    width: 50%;
+    text-align: center;
+}
+
 #empresa {
     font-size: 20px;
     text-align: center;
     padding: 80px 280px;
+    margin: 0.3%;
 }
 
 #contacto {
     border: 2px solid black;
+    margin: 3%;
+    width: 45%;
 }
 
