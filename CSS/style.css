@@ -11,19 +11,26 @@ a:hover {
 }
 
 .menu {
-    color: black;
+   
+    text-transform: uppercase;
     width: 20%;
     text-align: center;
     padding: 00.4%;
-    margin: 0.9% auto;
-    position: fixed;
-  
+    margin: 0.9%;
+    border: 2px solid black;
+     
 }
 
 .icono-menu {
     width: 15%;
     margin: 0.5%;
     
+}
+
+.RRSS {
+    display: inline-block;
+    border: 3px solid black;
+    width: 40%;
 }
 
 .texto-grande {
@@ -99,6 +106,7 @@ aside {
 
 li {
     list-style-type: none;
+    display: inline-block;
 }
 
 .presentacion-trabajo {
