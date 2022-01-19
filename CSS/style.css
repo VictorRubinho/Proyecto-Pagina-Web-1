@@ -9,29 +9,40 @@ a:visited {
 a:hover {
     font-weight: bold;    
 }
-
-.menu {
-   
-    text-transform: uppercase;
-    width: 20%;
-    text-align: center;
-    padding: 00.4%;
-    margin: 0.9%;
-    border: 2px solid black;
-     
-}
-
-.icono-menu {
-    width: 15%;
-    margin: 0.5%;
+header {
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
     
+    width: 100%;
+       
+        
 }
 
-.RRSS {
-    display: inline-block;
-    border: 3px solid black;
-    width: 40%;
+header .logo {
+    width: 10%;
+       
 }
+
+header .li-menu {
+    width: 15%;
+    margin: 0.1%;
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+header .icono-menu {
+    width: 20%;
+}
+
+header .icono-redes {
+    width: 40px;
+    padding: 0.3%;
+}
+
 
 .texto-grande {
     font-size: 40px;
@@ -68,6 +79,12 @@ a:hover {
 
 footer {
     background-color:#181818;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+
 }
 
 .texto-footer {
@@ -83,32 +100,12 @@ footer {
     padding: 0.3%;
 }
 
-aside {
-    text-align: center;
-}
-
 .articulo1 {
     font-size: 20px;
     text-align: center;
     padding: 80px 280px;
     margin: 0.3%;
 }
-
-.logo {
-    width: 10%;
-    text-align: center;
-}
-
-.icono-redes {
-    width: 40px;
-    padding: 0.3%;
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-}
-
 .presentacion-trabajo {
     width: 50%;
     text-align: center;
