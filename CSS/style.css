@@ -7,15 +7,15 @@ a:visited {
 }
 
 a:hover {
-    font-weight: bold;    
+    font-weight: bold;
+    text-decoration: underline;
+      
 }
 header {
-    background-color: aquamarine;
+    background-color:#c3ecc1 ;
     position: sticky;
-    top: 0;
-    
-    width: 100%;
-       
+    top: 0;    
+    width: 100%;      
         
 }
 
@@ -31,7 +31,6 @@ header .li-menu {
     padding: 0%;
     text-align: center;
     display: inline-block;
-    border: 1px solid black;
 }
 
 header .icono-menu {
@@ -41,6 +40,15 @@ header .icono-menu {
 header .icono-redes {
     width: 40px;
     padding: 0.3%;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;        
+}
+
+.menu a:hover {
+    text-decoration: underline;
 }
 
 
@@ -83,8 +91,12 @@ footer {
 }
 
 footer ul li {
-    display: inline-block;
+    display: inline-block;    
+}
 
+footer ul a {
+    color: azure;
+    text-decoration: none;
 }
 
 .texto-footer {
@@ -96,15 +108,16 @@ footer ul li {
 .texto-footer2 {
     font-size: 15px;
     text-align: center;
-    color: rgb(155, 155, 155);
     padding: 0.3%;
 }
 
 .articulo1 {
     font-size: 20px;
     text-align: center;
-    padding: 80px 280px;
+    padding: 2%;
     margin: 0.3%;
+    border: 2px solid black;
+    width: 60%;
 }
 .presentacion-trabajo {
     width: 50%;
@@ -113,9 +126,11 @@ footer ul li {
 
 #empresa {
     font-size: 20px;
-    text-align: center;
-    padding: 80px 280px;
+    text-align:center; 
+    padding: 2%;
     margin: 0.3%;
+    border: 2px solid black;
+    width: 60%;    
 }
 
 #contacto {
