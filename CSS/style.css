@@ -15,13 +15,11 @@ header {
     background-color:#c3ecc1 ;
     position: sticky;
     top: 0;    
-    width: 100%;      
-        
-}
-
-header .logo {
-    width: 10%;
-       
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 2px solid black ;
+            
 }
 
 header .li-menu {
@@ -42,6 +40,13 @@ header .icono-redes {
     padding: 0.3%;
 }
 
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 25%;    
+}
+
 .menu a {
     color: black;
     text-decoration: none;        
@@ -55,11 +60,13 @@ header .icono-redes {
 .texto-grande {
     font-size: 40px;
     text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .texto-grande2 {
     font-size: 25px;
     text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .texto-grande3 {
@@ -68,6 +75,7 @@ header .icono-redes {
     border: 2px solid black;
     margin: 3% ;
     width: 45%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .foto-nuestro-trabajo {
@@ -77,6 +85,7 @@ header .icono-redes {
     padding: 0.05%;
     margin: 5%;
     background-color: rgb(241, 219, 194);
+    font-family: 'Barlow Semi Condensed', sans-serif;
     
 }
 
@@ -116,8 +125,9 @@ footer ul a {
     text-align: center;
     padding: 2%;
     margin: 0.3%;
-    border: 2px solid black;
     width: 60%;
+    display: block;
+    margin: auto;
 }
 .presentacion-trabajo {
     width: 50%;
@@ -129,8 +139,10 @@ footer ul a {
     text-align:center; 
     padding: 2%;
     margin: 0.3%;
-    border: 2px solid black;
-    width: 60%;    
+    width: 60%; 
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: block;
+    margin: auto;
 }
 
 #contacto {
